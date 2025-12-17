@@ -20,7 +20,7 @@ void tempSensorInit(void)
 
 	__HAL_RCC_GPIOG_CLK_ENABLE();
 	pg9.Pin = GPIO_PIN_9;
-	pg9.Mode = GPIO_MODE_OUTPUT_PP;
+	pg9.Mode = GPIO_MODE_OUTPUT_OD;
 	pg9.Pull = GPIO_PULLUP;
 	pg9.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
 	pg9.Alternate = 0;
