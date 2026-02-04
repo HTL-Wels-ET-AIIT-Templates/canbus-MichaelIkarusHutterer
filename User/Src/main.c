@@ -44,6 +44,7 @@ int main(void)
     // ToDo: set up CAN peripherals
     // Wir nutzen jetzt die Funktion aus can.c
     canInit();
+    printf("Hallo PC, hörst du mich?\r\n");
 
     static int lastButtonState = 0;
 
